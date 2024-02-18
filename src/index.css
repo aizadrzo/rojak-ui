@@ -1,4 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+@layer base {
+    :root {
+        /* Font Size */
+        --display-lg: 160px;
+        --display-md: 105px;
+        --display-sm: 71px;
+        --heading-1: 50px;
+        --heading-2: 37px;
+        --heading-3: 29px;
+        --heading-4: 24px;
+        --heading-5: 21px;
+        --heading-6: 19px;
+        --body: 16px;
+        --caption: 14px;
+        --footnote: 12px;
+
+        /* Status Colors */
+        --red: #D93535;
+        --yellow: #BF9F00;
+        --green: #09A854;
+        --blue: #307FE2;
+
+        .dark {
+            /* Status Colors */
+            --red: #A31920;
+            --yellow: #8A7100;
+            --green: #037D48;
+            --blue: #074DB6;
+        }
+    }
+}
